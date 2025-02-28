@@ -176,6 +176,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1558459657315559550, guid: 680c90e60f7491741b80ed5a5b7582e6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -10
+      objectReference: {fileID: 0}
     - target: {fileID: 2890333746163145471, guid: 680c90e60f7491741b80ed5a5b7582e6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -230,6 +235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: New Palette
+      objectReference: {fileID: 0}
+    - target: {fileID: 8906253047551596511, guid: 680c90e60f7491741b80ed5a5b7582e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9107297937996317331, guid: 680c90e60f7491741b80ed5a5b7582e6,
         type: 3}
@@ -10872,6 +10882,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e88115e6985306b4f8678bfeae025e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: cf41441f-5464-43a9-83cc-8f9360e748ed
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: ada77649-8ea5-4fd0-bb26-29cbd140f1c2
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 09e4cceb-0ed6-4470-86a9-ac896e8b6579
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: up
+      m_Id: 1f8b2f40-8951-4242-919a-de924d6d8dd2
+      m_Path: <Joystick>/stick/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 4a395a92-9843-4c11-869f-17569a9f3aae
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: e85ca53f-534f-4dbd-b345-c086ca570aba
+      m_Path: <Joystick>/stick/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 504f0aa8-3fcd-4b4a-b908-8b55dfb90265
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 9b3103c7-466a-4c82-aa52-73fd4d4c23f5
+      m_Path: <Joystick>/stick/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: aa6041b9-93fa-47de-b3ab-e866ce4c70d4
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: fe1ce25c-499f-4a29-912a-5a7c74942fea
+      m_Path: <Joystick>/stick/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    m_Flags: 0
 --- !u!212 &650692004
 SpriteRenderer:
   m_ObjectHideFlags: 0
