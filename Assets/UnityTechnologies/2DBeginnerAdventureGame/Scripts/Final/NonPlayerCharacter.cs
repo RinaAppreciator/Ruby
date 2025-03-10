@@ -6,5 +6,5 @@
 /// </summary>
 public class NonPlayerCharacter : MonoBehaviour
 {
-    
+    public string dialogue;   
 }
